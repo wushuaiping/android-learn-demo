@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ActivityDemo</string>
+    <string name="button_1">启动一个活动</string>
+    <string name="menu_add">添加</string>
+    <string name="menu_remove">删除</string>
+    <string name="button_quit">退出</string>
+    <string name="button_2">访问谷歌</string>
+    <string name="button_3">按钮3</string>
+</resources>

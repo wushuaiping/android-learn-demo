@@ -1,0 +1,2 @@
+include ':app', ':layouttest', ':tablelayout', ':calculator', ':logindemo', ':shared_prefs_demo', ':xml_serializer', ':sqllite_demo', ':listview_demo', ':listview_demo2', ':adapter_demo', ':listview_demo3', ':http_demo'
+rootProject.name='layout'
