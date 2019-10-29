@@ -1,2 +1,2 @@
-include ':app', ':layouttest', ':tablelayout', ':calculator', ':logindemo', ':shared_prefs_demo', ':xml_serializer', ':sqllite_demo', ':listview_demo', ':listview_demo2', ':adapter_demo', ':listview_demo3', ':http_demo'
+include ':app', ':layouttest', ':tablelayout', ':calculator', ':logindemo', ':shared_prefs_demo', ':xml_serializer', ':sqllite_demo', ':listview_demo', ':listview_demo2', ':adapter_demo', ':listview_demo3', ':http_demo', ':http_img_demo', ':news_demo', ':retrofit_demo', ':download_demo'
 rootProject.name='layout'
