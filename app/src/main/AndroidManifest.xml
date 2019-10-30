@@ -13,7 +13,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".Hello2Activity"></activity>
+        <activity android:name=".Hello3Activity"></activity>
+        <activity android:name=".Hello2Activity" />
         <activity
             android:name=".MainActivity"
             android:icon="@drawable/callphone"

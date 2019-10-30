@@ -41,4 +41,13 @@
         android:text="意图附加数据"
         app:layout_constraintStart_toEndOf="@+id/button2"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="clickOther4"
+        android:text="打开新的activity并获取结果"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/call" />
 </androidx.constraintlayout.widget.ConstraintLayout>

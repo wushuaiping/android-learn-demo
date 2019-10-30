@@ -1,5 +1,6 @@
 package io.wooo.more_activity;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.Manifest;
@@ -8,6 +9,7 @@ import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -61,5 +63,18 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra("name", "刘雨佳");
         intent.putExtra("birthday", "1994-06-01");
         startActivity(intent);
+    }
+
+    public void clickOther4(View view){
+        Intent intent = new Intent();
+        intent.setClass(this, Hello3Activity.class);
+        startActivityForResult(intent, 1);
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        assert data != null;
+        Toast.makeText(this, data.getStringExtra("love"), Toast.LENGTH_SHORT).show();
     }
 }
